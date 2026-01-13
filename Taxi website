@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Taxi Service | शहर की भरोसेमंद टैक्सी</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #ffffff;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      color: #cbd5f5;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #dbeafe;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #22c55e;
+      color: #020617;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .services, .contact {
+      background: #020617;
+      border-radius: 10px;
+      margin-top: 30px;
+      padding: 30px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #1e293b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>City Taxi Service</h1>
+  <p>शहर की भरोसेमंद टैक्सी सेवा</p>
+</header>
+
+<section class="hero">
+  <h2>Book Taxi Anytime, Anywhere</h2>
+  <p>24×7 टैक्सी सेवा | Safe • Fast • Affordable</p>
+  <a class="btn" href="tel:+919999999999">📞 Call Now</a>
+</section>
+
+<section class="services">
+  <h2>Our Services | हमारी सेवाएं</h2>
+  <ul>
+    <li>🚕 Local City Ride | लोकल टैक्सी</li>
+    <li>🛣️ Outstation Taxi | आउटस्टेशन टैक्सी</li>
+    <li>✈️ Airport Pickup & Drop | एयरपोर्ट टैक्सी</li>
+    <li>🏔️ Tourist Taxi | टूरिस्ट टैक्सी</li>
+  </ul>
+</section>
+
+<section class="contact">
+  <h2>Contact Us | संपर्क करें</h2>
+  <p><strong>Phone:</strong> +91 99999 99999</p>
+  <p><strong>WhatsApp:</strong> +91 99999 99999</p>
+  <p><strong>City:</strong> Your City Name</p>
+</section>
+
+<footer>
+  <p>© 2026 City Taxi Service | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
