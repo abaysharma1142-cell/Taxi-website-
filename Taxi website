@@ -1,88 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>City Taxi Service | शहर की भरोसेमंद टैक्सी</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>City Taxi Service | भरोसेमंद टैक्सी</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #ffffff;
-    }
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f172a;
+  color:white;
+}
+header{
+  background:#020617;
+  padding:25px;
+  text-align:center;
+}
+header h1{ margin:0; font-size:30px; }
+header p{ color:#cbd5f5; }
 
-    header {
-      background: #020617;
-      padding: 20px;
-      text-align: center;
-    }
+section{
+  padding:35px 20px;
+  max-width:1000px;
+  margin:auto;
+}
+.hero{text-align:center;}
+.hero h2{font-size:34px;}
+.hero p{color:#dbeafe;font-size:18px;}
 
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-    }
+.btn{
+  display:inline-block;
+  margin:12px;
+  padding:15px 28px;
+  background:#22c55e;
+  color:#020617;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:6px;
+}
+.whatsapp{ background:#25D366; }
 
-    header p {
-      color: #cbd5f5;
-    }
+.card{
+  background:#020617;
+  padding:25px;
+  border-radius:12px;
+  margin-top:25px;
+}
 
-    section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
+ul{list-style:none;padding:0;}
+ul li{padding:10px 0;border-bottom:1px solid #1e293b;}
 
-    .hero {
-      text-align: center;
-    }
+input, textarea{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:6px;
+}
+button{
+  margin-top:15px;
+  padding:14px;
+  width:100%;
+  background:#22c55e;
+  border:none;
+  font-size:16px;
+  font-weight:bold;
+  border-radius:6px;
+}
 
-    .hero h2 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
+iframe{
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:10px;
+}
 
-    .hero p {
-      font-size: 18px;
-      color: #dbeafe;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 15px 30px;
-      background: #22c55e;
-      color: #020617;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-    }
-
-    .services, .contact {
-      background: #020617;
-      border-radius: 10px;
-      margin-top: 30px;
-      padding: 30px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    ul li {
-      padding: 10px 0;
-      border-bottom: 1px solid #1e293b;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #020617;
-      color: #94a3b8;
-    }
-  </style>
+footer{
+  background:#020617;
+  text-align:center;
+  padding:20px;
+  color:#94a3b8;
+}
+</style>
 </head>
 
 <body>
@@ -93,26 +93,55 @@
 </header>
 
 <section class="hero">
-  <h2>Book Taxi Anytime, Anywhere</h2>
-  <p>24×7 टैक्सी सेवा | Safe • Fast • Affordable</p>
-  <a class="btn" href="tel:+919999999999">📞 Call Now</a>
+  <h2>24×7 Taxi Available</h2>
+  <p>Local • Outstation • Airport • Tourist</p>
+  <p>लोकल | आउटस्टेशन | एयरपोर्ट | टूरिस्ट</p>
+
+  <a class="btn" href="tel:+916230088925">📞 Call Now</a>
+  <a class="btn whatsapp" href="https://wa.me/+916230088925">💬 WhatsApp</a>
 </section>
 
-<section class="services">
+<section class="card">
   <h2>Our Services | हमारी सेवाएं</h2>
   <ul>
-    <li>🚕 Local City Ride | लोकल टैक्सी</li>
-    <li>🛣️ Outstation Taxi | आउटस्टेशन टैक्सी</li>
-    <li>✈️ Airport Pickup & Drop | एयरपोर्ट टैक्सी</li>
-    <li>🏔️ Tourist Taxi | टूरिस्ट टैक्सी</li>
+    <li>🚕 Local City Taxi</li>
+    <li>🛣️ Outstation Taxi</li>
+    <li>✈️ Airport Pickup & Drop</li>
+    <li>🏔️ Tourist Taxi</li>
   </ul>
 </section>
 
-<section class="contact">
+<section class="card">
+  <h2>Book Taxi | टैक्सी बुक करें</h2>
+  <form action="mailto:your@email.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="tel" name="Phone" placeholder="Phone Number" required>
+    <input type="text" name="Pickup" placeholder="Pickup Location">
+    <input type="text" name="Drop" placeholder="Drop Location">
+    <textarea name="Message" placeholder="Message"></textarea>
+    <button type="submit">Submit Booking</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Customer Reviews | ग्राहकों की राय</h2>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Very good service, on time.”</p>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Clean car and polite driver.”</p>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Best taxi in city.”</p>
+</section>
+
+<section class="card">
+  <h2>Our Location | हमारी लोकेशन</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Your+City+Name&output=embed">
+  </iframe>
+</section>
+
+<section class="card">
   <h2>Contact Us | संपर्क करें</h2>
-  <p><strong>Phone:</strong> +91 99999 99999</p>
-  <p><strong>WhatsApp:</strong> +91 99999 99999</p>
-  <p><strong>City:</strong> Your City Name</p>
+  <p>📞 Phone: +91 99999 99999</p>
+  <p>💬 WhatsApp: +91 6230088925</p>
+  <p>📍 City: Your City Dharmshala</p>
 </section>
 
 <footer>
