@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>City Taxi Service | भरोसेमंद टैक्सी</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#0f172a;
+  color:white;
+}
+header{
+  background:#020617;
+  padding:25px;
+  text-align:center;
+}
+header h1{ margin:0; font-size:30px; }
+header p{ color:#cbd5f5; }
+
+section{
+  padding:35px 20px;
+  max-width:1000px;
+  margin:auto;
+}
+.hero{text-align:center;}
+.hero h2{font-size:34px;}
+.hero p{color:#dbeafe;font-size:18px;}
+
+.btn{
+  display:inline-block;
+  margin:12px;
+  padding:15px 28px;
+  background:#22c55e;
+  color:#020617;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:6px;
+}
+.whatsapp{ background:#25D366; }
+
+.card{
+  background:#020617;
+  padding:25px;
+  border-radius:12px;
+  margin-top:25px;
+}
+
+ul{list-style:none;padding:0;}
+ul li{padding:10px 0;border-bottom:1px solid #1e293b;}
+
+input, textarea{
+  width:100%;
+  padding:12px;
+  margin-top:10px;
+  border:none;
+  border-radius:6px;
+}
+button{
+  margin-top:15px;
+  padding:14px;
+  width:100%;
+  background:#22c55e;
+  border:none;
+  font-size:16px;
+  font-weight:bold;
+  border-radius:6px;
+}
+
+iframe{
+  width:100%;
+  height:300px;
+  border:0;
+  border-radius:10px;
+}
+
+footer{
+  background:#020617;
+  text-align:center;
+  padding:20px;
+  color:#94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>City Taxi Service</h1>
+  <p>शहर की भरोसेमंद टैक्सी सेवा</p>
+</header>
+
+<section class="hero">
+  <h2>24×7 Taxi Available</h2>
+  <p>Local • Outstation • Airport • Tourist</p>
+  <p>लोकल | आउटस्टेशन | एयरपोर्ट | टूरिस्ट</p>
+
+  <a class="btn" href="tel:+919999999999">📞 Call Now</a>
+  <a class="btn whatsapp" href="https://wa.me/919999999999">💬 WhatsApp</a>
+</section>
+
+<section class="card">
+  <h2>Our Services | हमारी सेवाएं</h2>
+  <ul>
+    <li>🚕 Local City Taxi</li>
+    <li>🛣️ Outstation Taxi</li>
+    <li>✈️ Airport Pickup & Drop</li>
+    <li>🏔️ Tourist Taxi</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Book Taxi | टैक्सी बुक करें</h2>
+  <form action="mailto:your@email.com" method="post" enctype="text/plain">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="tel" name="Phone" placeholder="Phone Number" required>
+    <input type="text" name="Pickup" placeholder="Pickup Location">
+    <input type="text" name="Drop" placeholder="Drop Location">
+    <textarea name="Message" placeholder="Message"></textarea>
+    <button type="submit">Submit Booking</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Customer Reviews | ग्राहकों की राय</h2>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Very good service, on time.”</p>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Clean car and polite driver.”</p>
+  <p>⭐️⭐️⭐️⭐️⭐️ “Best taxi in city.”</p>
+</section>
+
+<section class="card">
+  <h2>Our Location | हमारी लोकेशन</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Your+City+Name&output=embed">
+  </iframe>
+</section>
+
+<section class="card">
+  <h2>Contact Us | संपर्क करें</h2>
+  <p>📞 Phone: +91 6230088925</p>
+  <p>💬 WhatsApp: +91 6230088925</p>
+  <p>📍 City: Your City Dharmshala</p>
+</section>
+
+<footer>
+  <p>© 2026 City Taxi Service | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
